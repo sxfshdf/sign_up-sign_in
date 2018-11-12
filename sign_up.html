@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="form-wrapper">
+    <h2>注册</h2>
+    <form id="signUpForm" autocomplete="off">  
+      <div class="row">
+        <label>邮箱</label>
+        <input type="text" name="email">
+        <span class="error"></span>
+      </div>
+      <div class="row">
+        <label>密码</label>
+        <input type="password" name="password">
+        <span class="error"></span>
+      </div>
+      <div class="row">
+        <label>确认密码</label>
+        <input type="password" name="password_confirmation">
+        <span class="error"></span>
+      </div>
+      <div class="row">
+        <input type="submit" value="注册">
+      </div>
+    </form>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script> 
+  <script src="./main.js"></script>
+</body>
+</html>

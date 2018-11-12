@@ -1,0 +1,24 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+body{
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper{
+  border: 1px solid #ddd;
+  padding: 16px;
+  min-width: 360px;
+}
+.form-wrapper .row{
+  margin: 10px 0;
+}
+.form-wrapper .row>label{
+  display: inline-block;
+  width: 4em;
+}
+#signUpForm > .row > .error{
+  color: red;
+  font-size: 14px;
+}
